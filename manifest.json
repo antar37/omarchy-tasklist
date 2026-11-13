@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "antar37.tasklist",
+  "name": "Tasklist",
+  "version": "1.0.0",
+  "author": "antar37",
+  "license": "MIT",
+  "homepage": "https://github.com/antar37/omarchy-tasklist",
+  "description": "Open windows in the bar, grouped into one pill per Hyprland workspace. Click to focus, middle-click to close, right-drag to move a window to another workspace.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Tasklist.qml"
+  },
+  "barWidget": {
+    "displayName": "Tasklist",
+    "description": "Open windows grouped by workspace",
+    "category": "Workspaces",
+    "allowMultiple": false,
+    "defaultSection": "left"
+  }
+}
